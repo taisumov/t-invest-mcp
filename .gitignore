@@ -24,6 +24,7 @@ coverage
 dist
 build/Release
 .cache
+.cache/
 .parcel-cache
 .next
 out
@@ -39,6 +40,10 @@ web_modules/
 jspm_packages/
 bower_components
 lib-cov
+.grunt
+.vuepress/dist
+**/.vitepress/dist
+**/.vitepress/cache
 *.tsbuildinfo
 .npm
 .eslintcache
